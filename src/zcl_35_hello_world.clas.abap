@@ -1,0 +1,21 @@
+CLASS zcl_35_hello_world DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
+
+  PUBLIC SECTION.
+
+    METHODS hello RETURNING VALUE(result) TYPE string.
+  PROTECTED SECTION.
+  PRIVATE SECTION.
+ENDCLASS.
+
+
+
+CLASS zcl_35_hello_world IMPLEMENTATION.
+
+
+  METHOD hello.
+    result = 'Hello, World!'.
+  ENDMETHOD.
+ENDCLASS.
